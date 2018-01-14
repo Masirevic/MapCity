@@ -147,10 +147,13 @@ extension MapVC: MKMapViewDelegate {
         addSpinner()
         addProgressLbl()
         
+       
+        
         let touchPoint = sender.location(in: mapView)
         let touchCordinate = mapView.convert(touchPoint, toCoordinateFrom: mapView)
         let annotation = DroppablePin(coordinate: touchCordinate, identifier: "droppablePin")
         mapView.addAnnotation(annotation)
+        
         
         let coordinateRegion = MKCoordinateRegionMakeWithDistance(touchCordinate, regionRadius * 2.0, regionRadius * 2.0)
         mapView.setRegion(coordinateRegion, animated: true)

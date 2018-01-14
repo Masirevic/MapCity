@@ -10,6 +10,7 @@
 		00071D27D8D2FE3213133695 /* Pods_MapCity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827AFAF5DDCF9632B355D6FD /* Pods_MapCity.framework */; };
 		8875B832200B744D008252DE /* DroppablePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8875B831200B744D008252DE /* DroppablePin.swift */; };
 		8875B834200BABE0008252DE /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8875B833200BABE0008252DE /* PhotoCell.swift */; };
+		8875B836200BB5D0008252DE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8875B835200BB5D0008252DE /* Constants.swift */; };
 		88BA6377200A7E57003D3392 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA6376200A7E57003D3392 /* AppDelegate.swift */; };
 		88BA6379200A7E57003D3392 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA6378200A7E57003D3392 /* MapVC.swift */; };
 		88BA637C200A7E57003D3392 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BA637A200A7E57003D3392 /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 		838D26F5E7979E6428730BA9 /* Pods-MapCity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MapCity.release.xcconfig"; path = "Pods/Target Support Files/Pods-MapCity/Pods-MapCity.release.xcconfig"; sourceTree = "<group>"; };
 		8875B831200B744D008252DE /* DroppablePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroppablePin.swift; sourceTree = "<group>"; };
 		8875B833200BABE0008252DE /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		8875B835200BB5D0008252DE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		88BA6373200A7E57003D3392 /* MapCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BA6376200A7E57003D3392 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88BA6378200A7E57003D3392 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		88BA638B200A7EB3003D3392 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				8875B835200BB5D0008252DE /* Constants.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8875B836200BB5D0008252DE /* Constants.swift in Sources */,
 				8875B834200BABE0008252DE /* PhotoCell.swift in Sources */,
 				88BA6379200A7E57003D3392 /* MapVC.swift in Sources */,
 				8875B832200B744D008252DE /* DroppablePin.swift in Sources */,
